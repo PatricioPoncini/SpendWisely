@@ -7,8 +7,8 @@
 *.sln.docstates
 
 # VS Folder
+.vs/SpendWisely
 .vs/
-
 # Build results
 
 [Dd]ebug/
