@@ -14,6 +14,7 @@ namespace SpendWisely.Models
         // el usuario elije si le agrega una descripción o no
         public string? description { get; set; }
 
+        [Required(ErrorMessage = "El monto del gasto es obligatorio.")]
         [DataType(DataType.Currency)]
         public decimal amount { get; set; }
 

@@ -5,12 +5,14 @@ namespace SpendWisely.Models
 {
     public class Income
     {
+        [Required(ErrorMessage = "El título del gasto es obligatorio.")]
         public string title { get; set; }
 
         public string description { get; set; }
 
         public DateTime registrationDate { get; set; }
 
+        [Required(ErrorMessage = "El monto del ingreso es obligatorio.")]
         [DataType(DataType.Currency)]
         public decimal amount { get; set; }
 
