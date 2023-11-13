@@ -7,3 +7,14 @@ Proyecto para Laboratorio IV. Se trata de una app web para registrar gastos e in
 
 ### Bloc de notas de Notion:
 https://tricolor-hubcap-fab.notion.site/Proyecto-Lab-IV-31a6ebcacbd0413487fa7b0072088430?pvs=4
+
+## Migración de entidades
+Para poder realizar la migración a la base de datos, una vez que tengas todo configurado ejecuta el comando 
+```
+Add-Migration SpendWiseyMigration -Context ApplicationDbContext
+```
+Esto te realizara la migración completa. Una vez terminado, ejecuta 
+```
+Update-Database -Context ApplicationDbContext
+```
+Esto te permitirá actualizar la base de datos completa con la migración que realizaste anteriormente.
