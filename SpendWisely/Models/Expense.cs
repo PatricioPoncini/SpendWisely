@@ -20,7 +20,7 @@ namespace SpendWisely.Models
         [Required(ErrorMessage = "El monto del gasto es obligatorio.")]
         [Display(Name ="Monto")]
         [DataType(DataType.Currency)]
-        public decimal amount { get; set; }
+        public int amount { get; set; }
 
         public int userId { get; set; }
 

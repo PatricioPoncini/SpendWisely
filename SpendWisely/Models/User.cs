@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -36,5 +37,12 @@ namespace SpendWisely.Models
         [DataType(DataType.Date)]
         [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}", ApplyFormatInEditMode = false)]
         public DateTime registrationDate { get; set; }
+    }
+
+    public class UserDBContext : DbContext
+    {
+        public UserDBContext() { }
+
+        public DbSet<User> Users { get; set; }
     }
 }
