@@ -22,8 +22,6 @@ namespace SpendWisely.Models
         [DataType(DataType.Currency)]
         public int amount { get; set; }
 
-        public int userId { get; set; }
-
         public int expenseCategoryId { get; set; }
 
         [Display(Name ="Fecha de registro")]
@@ -34,8 +32,5 @@ namespace SpendWisely.Models
         [Display(Name ="Categoría")]
         [ForeignKey("expenseCategoryId")]
         public ExpenseCategory expenseCategory { get; set; }
-
-        [ForeignKey("userId")]
-        public User user { get; set; }
     }
 }

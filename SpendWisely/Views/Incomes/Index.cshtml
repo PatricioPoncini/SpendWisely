@@ -1,0 +1,90 @@
+﻿@model IEnumerable<SpendWisely.Models.Income>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.registrationDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.amount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.incomeCategory)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.registrationDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.amount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.incomeCategory.title)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+<div id="totalAmount" style="margin-top: 20px; font-weight: bold;"></div>
+
+@section Scripts {
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var totalAmount = 0;
+
+            var amountCells = document.querySelectorAll("table tbody td:nth-child(4)");
+
+            amountCells.forEach(function (cell) {
+                var amountText = cell.textContent.trim();
+
+                amountText = amountText.replace(/[\$\s]/g, "");
+
+                amountText = amountText.replace(",", ".");
+
+                var amount = parseFloat(amountText.replace(/\./g, "").replace(",", "."));
+
+                if (!isNaN(amount)) {
+                    totalAmount += amount;
+                }
+            });
+
+            var formattedTotal = Math.floor(totalAmount / 100).toString();
+
+            var totalAmountDiv = document.getElementById("totalAmount");
+            totalAmountDiv.textContent = "Ingresos totales: $" + formattedTotal;
+        });
+    </script>
+}

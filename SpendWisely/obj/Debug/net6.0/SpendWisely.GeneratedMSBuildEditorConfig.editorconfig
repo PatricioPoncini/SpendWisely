@@ -16,44 +16,44 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Tripa\source\repos\SpendWisely\SpendWisely
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Tripa/source/repos/SpendWisely/SpendWisely/Views/ExpenseCategorie/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwZW5zZUNhdGVnb3JpZVxDcmVhdGUuY3NodG1s
+[C:/Users/Tripa/source/repos/SpendWisely/SpendWisely/Views/ExpenseCategories/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwZW5zZUNhdGVnb3JpZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tripa/source/repos/SpendWisely/SpendWisely/Views/ExpenseCategorie/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwZW5zZUNhdGVnb3JpZVxEZWxldGUuY3NodG1s
+[C:/Users/Tripa/source/repos/SpendWisely/SpendWisely/Views/ExpenseCategories/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwZW5zZUNhdGVnb3JpZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tripa/source/repos/SpendWisely/SpendWisely/Views/ExpenseCategorie/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwZW5zZUNhdGVnb3JpZVxEZXRhaWxzLmNzaHRtbA==
+[C:/Users/Tripa/source/repos/SpendWisely/SpendWisely/Views/ExpenseCategories/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwZW5zZUNhdGVnb3JpZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tripa/source/repos/SpendWisely/SpendWisely/Views/ExpenseCategorie/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwZW5zZUNhdGVnb3JpZVxFZGl0LmNzaHRtbA==
+[C:/Users/Tripa/source/repos/SpendWisely/SpendWisely/Views/ExpenseCategories/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwZW5zZUNhdGVnb3JpZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tripa/source/repos/SpendWisely/SpendWisely/Views/ExpenseCategorie/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwZW5zZUNhdGVnb3JpZVxJbmRleC5jc2h0bWw=
+[C:/Users/Tripa/source/repos/SpendWisely/SpendWisely/Views/ExpenseCategories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwZW5zZUNhdGVnb3JpZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tripa/source/repos/SpendWisely/SpendWisely/Views/Expense/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwZW5zZVxDcmVhdGUuY3NodG1s
+[C:/Users/Tripa/source/repos/SpendWisely/SpendWisely/Views/Expenses/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwZW5zZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tripa/source/repos/SpendWisely/SpendWisely/Views/Expense/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwZW5zZVxEZWxldGUuY3NodG1s
+[C:/Users/Tripa/source/repos/SpendWisely/SpendWisely/Views/Expenses/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwZW5zZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tripa/source/repos/SpendWisely/SpendWisely/Views/Expense/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwZW5zZVxEZXRhaWxzLmNzaHRtbA==
+[C:/Users/Tripa/source/repos/SpendWisely/SpendWisely/Views/Expenses/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwZW5zZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tripa/source/repos/SpendWisely/SpendWisely/Views/Expense/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwZW5zZVxFZGl0LmNzaHRtbA==
+[C:/Users/Tripa/source/repos/SpendWisely/SpendWisely/Views/Expenses/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwZW5zZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tripa/source/repos/SpendWisely/SpendWisely/Views/Expense/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwZW5zZVxJbmRleC5jc2h0bWw=
+[C:/Users/Tripa/source/repos/SpendWisely/SpendWisely/Views/Expenses/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwZW5zZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Tripa/source/repos/SpendWisely/SpendWisely/Views/Home/Index.cshtml]
@@ -64,44 +64,44 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tripa/source/repos/SpendWisely/SpendWisely/Views/IncomeCategorie/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5jb21lQ2F0ZWdvcmllXENyZWF0ZS5jc2h0bWw=
+[C:/Users/Tripa/source/repos/SpendWisely/SpendWisely/Views/IncomeCategories/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5jb21lQ2F0ZWdvcmllc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tripa/source/repos/SpendWisely/SpendWisely/Views/IncomeCategorie/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5jb21lQ2F0ZWdvcmllXERlbGV0ZS5jc2h0bWw=
+[C:/Users/Tripa/source/repos/SpendWisely/SpendWisely/Views/IncomeCategories/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5jb21lQ2F0ZWdvcmllc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tripa/source/repos/SpendWisely/SpendWisely/Views/IncomeCategorie/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5jb21lQ2F0ZWdvcmllXERldGFpbHMuY3NodG1s
+[C:/Users/Tripa/source/repos/SpendWisely/SpendWisely/Views/IncomeCategories/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5jb21lQ2F0ZWdvcmllc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tripa/source/repos/SpendWisely/SpendWisely/Views/IncomeCategorie/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5jb21lQ2F0ZWdvcmllXEVkaXQuY3NodG1s
+[C:/Users/Tripa/source/repos/SpendWisely/SpendWisely/Views/IncomeCategories/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5jb21lQ2F0ZWdvcmllc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tripa/source/repos/SpendWisely/SpendWisely/Views/IncomeCategorie/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5jb21lQ2F0ZWdvcmllXEluZGV4LmNzaHRtbA==
+[C:/Users/Tripa/source/repos/SpendWisely/SpendWisely/Views/IncomeCategories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5jb21lQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tripa/source/repos/SpendWisely/SpendWisely/Views/Income/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5jb21lXENyZWF0ZS5jc2h0bWw=
+[C:/Users/Tripa/source/repos/SpendWisely/SpendWisely/Views/Incomes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5jb21lc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tripa/source/repos/SpendWisely/SpendWisely/Views/Income/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5jb21lXERlbGV0ZS5jc2h0bWw=
+[C:/Users/Tripa/source/repos/SpendWisely/SpendWisely/Views/Incomes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5jb21lc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tripa/source/repos/SpendWisely/SpendWisely/Views/Income/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5jb21lXERldGFpbHMuY3NodG1s
+[C:/Users/Tripa/source/repos/SpendWisely/SpendWisely/Views/Incomes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5jb21lc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tripa/source/repos/SpendWisely/SpendWisely/Views/Income/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5jb21lXEVkaXQuY3NodG1s
+[C:/Users/Tripa/source/repos/SpendWisely/SpendWisely/Views/Incomes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5jb21lc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Tripa/source/repos/SpendWisely/SpendWisely/Views/Income/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5jb21lXEluZGV4LmNzaHRtbA==
+[C:/Users/Tripa/source/repos/SpendWisely/SpendWisely/Views/Incomes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5jb21lc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Tripa/source/repos/SpendWisely/SpendWisely/Views/Shared/Error.cshtml]
@@ -110,26 +110,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Tripa/source/repos/SpendWisely/SpendWisely/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Tripa/source/repos/SpendWisely/SpendWisely/Views/User/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDcmVhdGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Tripa/source/repos/SpendWisely/SpendWisely/Views/User/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxEZWxldGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Tripa/source/repos/SpendWisely/SpendWisely/Views/User/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxEZXRhaWxzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Tripa/source/repos/SpendWisely/SpendWisely/Views/User/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxFZGl0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Tripa/source/repos/SpendWisely/SpendWisely/Views/User/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Tripa/source/repos/SpendWisely/SpendWisely/Views/_ViewImports.cshtml]

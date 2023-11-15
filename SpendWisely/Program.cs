@@ -26,13 +26,36 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
+app.MapControllerRoute(
+    name: "expenses",
+    pattern: "Expenses/{action=Index}/{id?}",
+    defaults: new { controller = "Expense" });
+
+app.MapControllerRoute(
+    name: "expenseCategories",
+    pattern: "ExpenseCategories/{action=Index}/{id?}",
+    defaults: new { controller = "ExpenseCategory" });
+
+app.MapControllerRoute(
+    name: "incomes",
+    pattern: "Incomes/{action=Index}/{id?}",
+    defaults: new { controller = "Income" });
+
+app.MapControllerRoute(
+    name: "incomeCategories",
+    pattern: "IncomeCategories/{action=Index}/{id?}",
+    defaults: new { controller = "IncomeCategory" });
+
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Home}/{action=Index}/{id?}");
+
 app.Run();
 
 public partial class ApplicationDbContext : DbContext
 {
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
 
-    public virtual DbSet<User> UserModel { get; set; }
     public virtual DbSet<Expense> ExpenseModel { get; set; }
     public virtual DbSet<ExpenseCategory> ExpenseCategoryModel { get; set; }
     public virtual DbSet<Income> IncomeModel { get; set; }
@@ -42,7 +65,6 @@ public partial class ApplicationDbContext : DbContext
     {
         OnModelCreatingPartial(modelBuilder);
 
-        modelBuilder.Entity<User>().Property(t => t.id).ValueGeneratedOnAdd();
         modelBuilder.Entity<Expense>().Property(t => t.id).ValueGeneratedOnAdd();
         modelBuilder.Entity<ExpenseCategory>().Property(t => t.id).ValueGeneratedOnAdd();
         modelBuilder.Entity<Income>().Property(t => t.id).ValueGeneratedOnAdd();
