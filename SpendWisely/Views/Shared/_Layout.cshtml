@@ -53,3 +53,13 @@
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
+
+<style>
+    .navbar-nav li.nav-item a.nav-link {
+        transition: all 0.3s ease-in-out;
+    }
+
+        .navbar-nav li.nav-item a.nav-link:hover {
+            transform: scale(1.1); /* Aumenta el tamaño al 110% en el evento hover */
+        }
+</style>

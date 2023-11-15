@@ -6,6 +6,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using SpendWisely.Models;
+using NPOI.SS.UserModel;
+using NPOI.XSSF.UserModel;
+using NPOI.HSSF.UserModel;
+using EFCore.BulkExtensions;
+using EFCore.BulkExtensions;
 
 namespace SpendWisely.Controllers
 {
@@ -155,6 +160,48 @@ namespace SpendWisely.Controllers
         private bool ExpenseExists(int id)
         {
           return (_context.ExpenseModel?.Any(e => e.id == id)).GetValueOrDefault();
+        }
+
+        
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult SaveExcelData([FromForm] IFormFile ExcelFile)
+        {
+            Stream stream = ExcelFile.OpenReadStream();
+
+            IWorkbook MyExcel = null;
+
+            if (Path.GetExtension(ExcelFile.FileName) == ".xlsx")
+            {
+                MyExcel = new XSSFWorkbook(stream);
+            } else
+            {
+                MyExcel = new XSSFWorkbook(stream);
+            }
+
+            ISheet ExcelSheet = MyExcel.GetSheetAt(0);
+
+            int cantidadFilas = ExcelSheet.LastRowNum;
+
+            List<Expense> lista = new List<Expense>();
+
+            for (int i = 1; i <= cantidadFilas; i++)
+            {
+                IRow fila = ExcelSheet.GetRow(i);
+
+                lista.Add(new Expense
+                {
+                    title = fila.GetCell(0).ToString(),
+                    description = fila.GetCell(1).ToString(),
+                    amount = Convert.ToInt32(fila.GetCell(2)),
+                    expenseCategoryId = Convert.ToInt32(fila.GetCell(3)),
+                    registrationDate = DateTime.Parse(fila.GetCell(4).ToString())
+                });
+            }
+
+            _context.BulkInsert(lista);
+
+            return StatusCode(StatusCodes.Status200OK, new {message = "Ok"});
         }
     }
 }
